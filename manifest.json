@@ -1,0 +1,57 @@
+{
+  "id": "/",
+  "name": "Nexus Chat - Real-Time Messaging",
+  "short_name": "Nexus",
+  "description": "Next-Generation Real-Time Chat with Audio/Video Calls, File Sharing & More",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00d4ff",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "New Room",
+      "short_name": "New Room",
+      "description": "Create a new chat room",
+      "url": "/?action=new-room",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/logo.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["social", "productivity"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
